@@ -1,4 +1,3 @@
-README.md (full contents)
 # CAN Simulator (`can_sim.py`)
 
 Small, single-file CAN message simulator used for Data Logger testing.
