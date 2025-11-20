@@ -12,7 +12,7 @@ It connects to a CAN interface (e.g. Intrepid neoVI) using `python-can` and peri
 ## Features
 
 - Connects to any `python-can` backend (tested with **Intrepid neoVI**).
-- Periodically transmits a set of CDL-relevant PGNs, including GNSS data:
+- Periodically transmits a set of relevant PGNs, including GNSS data:
   - e.g. PGN 129029 (GNSS detailed) and related messages (see `can_sim.py` for exact list).
 - Simple CLI to choose CAN interface and channel.
 - Designed to be easy to hack:
