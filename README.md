@@ -1,7 +1,7 @@
 README.md (full contents)
-# CDL CAN Simulator (`can_sim.py`)
+# CAN Simulator (`can_sim.py`)
 
-Small, single-file CAN message simulator used for CDL (CAN Data Logger) development and testing.
+Small, single-file CAN message simulator used for Data Logger testing.
 
 It connects to a CAN interface (e.g. Intrepid neoVI) using `python-can` and periodically transmits a small set of J1939 / GNSS-related PGNs so the CDL can be exercised on the bench without a tractor/combine hooked up.
 
